@@ -1,0 +1,205 @@
+<html>
+<head>
+    <title>Ficha de Inscrição</title>
+</head>
+<body bgcolor="#F4F6F9">
+
+    <br><br>
+
+    <form method="post" action="processar_cadastro.html">
+        
+        <table width="850" align="center" border="1" bordercolor="#CCCCCC" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+            <tr>
+                <td>
+
+                    <table width="100%" border="0" cellpadding="8" cellspacing="0">
+                        
+                        <tr>
+                            <td colspan="4" align="center">
+                                <h2><font face="Arial, sans-serif">Ficha de Inscrição</font></h2>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="4">
+                                <hr size="1" color="#E0E0E0">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td width="18%"><font face="Arial, sans-serif">Nome do candidato:</font></td>
+                            <td colspan="3">
+                                <input type="text" name="nome" size="85">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><font face="Arial, sans-serif">Endereço:</font></td>
+                            <td colspan="3">
+                                <input type="text" name="endereco" size="85">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><font face="Arial, sans-serif">CEP:</font></td>
+                            <td colspan="3">
+                                <input type="text" name="cep" size="15">
+                                &nbsp;&nbsp;&nbsp;
+                                <select name="cidade">
+                                    <option>-- Cidade --</option>
+                                    <option value="Brasília">Brasília</option>
+                                    <option value="São Paulo">São Paulo</option>
+                                    <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                    <option value="Belo Horizonte">Belo Horizonte</option>
+                                    <option value="Vitória">Vitória</option>
+                                    <option value="Curitiba">Curitiba</option>
+                                    <option value="Florianópolis">Florianópolis</option>
+                                    <option value="Porto Alegre">Porto Alegre</option>
+                                    <option value="Salvador">Salvador</option>
+                                    <option value="Recife">Recife</option>
+                                    <option value="Fortaleza">Fortaleza</option>
+                                    <option value="Natal">Natal</option>
+                                    <option value="Maceió">Maceió</option>
+                                    <option value="Aracaju">Aracaju</option>
+                                    <option value="João Pessoa">João Pessoa</option>
+                                    <option value="São Luís">São Luís</option>
+                                    <option value="Teresina">Teresina</option>
+                                    <option value="Goiânia">Goiânia</option>
+                                    <option value="Cuiabá">Cuiabá</option>
+                                    <option value="Campo Grande">Campo Grande</option>
+                                    <option value="Manaus">Manaus</option>
+                                    <option value="Belém">Belém</option>
+                                    <option value="Macapá">Macapá</option>
+                                    <option value="Boa Vista">Boa Vista</option>
+                                    <option value="Rio Branco">Rio Branco</option>
+                                    <option value="Porto Velho">Porto Velho</option>
+                                    <option value="Palmas">Palmas</option>
+                                    <option value="Campinas">Campinas</option>
+                                    <option value="Guarulhos">Guarulhos</option>
+                                    <option value="Niterói">Niterói</option>
+                                </select>
+                                &nbsp;&nbsp;&nbsp;
+                                <select name="uf">
+                                    <option>-- UF --</option>
+                                    <option value="AC">AC</option>
+                                    <option value="AL">AL</option>
+                                    <option value="AM">AM</option>
+                                    <option value="AP">AP</option>
+                                    <option value="BA">BA</option>
+                                    <option value="CE">CE</option>
+                                    <option value="DF">DF</option>
+                                    <option value="ES">ES</option>
+                                    <option value="GO">GO</option>
+                                    <option value="MA">MA</option>
+                                    <option value="MG">MG</option>
+                                    <option value="MS">MS</option>
+                                    <option value="MT">MT</option>
+                                    <option value="PA">PA</option>
+                                    <option value="PB">PB</option>
+                                    <option value="PE">PE</option>
+                                    <option value="PI">PI</option>
+                                    <option value="PR">PR</option>
+                                    <option value="RJ">RJ</option>
+                                    <option value="RN">RN</option>
+                                    <option value="RO">RO</option>
+                                    <option value="RR">RR</option>
+                                    <option value="RS">RS</option>
+                                    <option value="SC">SC</option>
+                                    <option value="SE">SE</option>
+                                    <option value="SP">SP</option>
+                                    <option value="TO">TO</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><font face="Arial, sans-serif">Telefone:</font></td>
+                            <td colspan="3">
+                                <input type="text" name="tel1" size="15">
+                                &nbsp;&nbsp;
+                                <input type="text" name="tel2" size="20">
+                                &nbsp;&nbsp;
+                                <input type="text" name="tel3" size="20">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><font face="Arial, sans-serif">RG:</font></td>
+                            <td width="22%">
+                                <input type="text" name="rg" size="15">
+                            </td>
+                            <td width="10%" align="center"><font face="Arial, sans-serif">CPF:</font></td>
+                            <td width="50%" nowrap>
+                                <input type="text" name="cpf" size="12">
+                                &nbsp;&nbsp;
+                                <font face="Arial, sans-serif">Sexo: </font>
+                                <input type="radio" name="sexo" value="Mas"> <font face="Arial, sans-serif">Mas.</font>
+                                <input type="radio" name="sexo" value="Fem"> <font face="Arial, sans-serif">Fem.</font>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><font face="Arial, sans-serif">Escolaridade:</font></td>
+                            <td>
+                                <select name="escolaridade">
+                                    <option>-- Selecione --</option>
+                                    <option value="ef">Ensino Fundamental</option>
+                                    <option value="em">Ensino Médio</option>
+                                    <option value="es">Ensino Superior</option>
+                                    <option value="pg">Pós-Graduação</option>
+                                </select>
+                            </td>
+                            <td align="center"><font face="Arial, sans-serif">Email:</font></td>
+                            <td>
+                                <input type="text" name="email" size="35">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td><font face="Arial, sans-serif">Curso:</font></td>
+                            <td>
+                                <select name="curso">
+                                    <option>-- Selecione --</option>
+                                    <option value="si">Sistemas de Informação</option>
+                                    <option value="ads">Análise e Desenv. de Sistemas</option>
+                                    <option value="dir">Direito</option>
+                                    <option value="nut">Nutrição</option>
+                                    <option value="med">Medicina</option>
+                                    <option value="eng">Engenharia Civil</option>
+                                    <option value="adm">Administração</option>
+                                </select>
+                            </td>
+                            <td align="center"><font face="Arial, sans-serif">Senha de<br>acompanhamento:</font></td>
+                            <td>
+                                <input type="password" name="senha" size="15">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="4">
+                                <hr size="1" color="#E0E0E0">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="4" align="center">
+                                <br>
+                                <table bgcolor="#3B88D9" cellpadding="4" cellspacing="0" border="0">
+                                    <tr>
+                                        <td>
+                                            <input type="submit" value="CADASTRAR">
+                                        </td>
+                                    </tr>
+                                </table>
+                                <br>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+</html>
